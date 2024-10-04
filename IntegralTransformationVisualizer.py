@@ -26,7 +26,6 @@ class IntegralTransformationVisualizer:
     
     def create_widgets(self):
         """Создаем виджеты для ввода данных и отображения графиков"""
-        # Поля для ввода функций f(x) и K(x, ksi)
         ttk.Label(self.root, text="f(x):").grid(row=0, column=0)
         self.f_entry = ttk.Entry(self.root, width=40)
         self.f_entry.grid(row=0, column=1)
